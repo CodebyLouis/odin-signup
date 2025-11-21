@@ -125,7 +125,13 @@ input:not(:focus):invalid:not(:placeholder-shown) {
 footer{
     position: absolute;
     bottom: 5px;
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
 }
+
 footer img{
-    width: 28px;
+    width: 24px;
 }
