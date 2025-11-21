@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+    <div class="register-container">
+        <div class="register-header">
+            <div class="left-side">
+                <p>Welcome to Mounting</p>
+                <h1>Sign up</h1>
+            </div>
+            <div class="right-side">
+                <p> Have an account ?</p>
+                <p id="signin"> Sign-In</p>
+            </div>
+        </div>
+        <div class="form">
+            <form action="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstname">First name</label>
+                        <input type="text" id="firstname" name="user_firstname" placeholder="Patrick" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="user_lastname" placeholder="Bateman" required>
+                    </div>
+               </div>
+               <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="user_email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" placeholder="Phone number" required>
+                    </div>
+               </div>
+               <div class="form-row">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="user_password" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmpassword">Confirm password</label>
+                        <input type="password" id="confirmpassword" name="user_confirmpassword" placeholder="Confirm" required>
+                    </div>
+               </div>
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+    </div>
+    <footer>CodeByLouis
+    <a href="https://github.com/CodeByLouis" target="_blank">
+        <img class="github-logo" src="Images/github-mark white.svg">
+      </a>
+    </div> 
+    </footer>
+    </main>
+</body>
+</html>
